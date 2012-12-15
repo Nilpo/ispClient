@@ -1,0 +1,74 @@
+<?php
+namespace Inspirio\IspClient\Data;
+
+use Inspirio\IspClient\DataObject;
+
+class Client extends DataObject
+{
+      public $clientId;
+      public $sysUserid;
+      public $sysGroupid;
+      public $sysPermUser;
+      public $sysPermGroup;
+      public $sysPermOther;
+      public $companyName;
+      public $contactName;
+      public $customerNo;
+      public $vatId;
+      public $street;
+      public $zip;
+      public $city;
+      public $state;
+      public $country;
+      public $telephone;
+      public $mobile;
+      public $fax;
+      public $email;
+      public $internet;
+      public $icq;
+      public $notes;
+      public $defaultMailserver;
+      public $limitMaildomain;
+      public $limitMailbox;
+      public $limitMailalias;
+      public $limitMailaliasdomain;
+      public $limitMailforward;
+      public $limitMailcatchall;
+      public $limitMailrouting;
+      public $limitMailfilter;
+      public $limitFetchmail;
+      public $limitMailquota;
+      public $limitSpamfilterWblist;
+      public $limitSpamfilterUser;
+      public $limitSpamfilterPolicy;
+      public $defaultWebserver;
+      public $limitWebIp;
+      public $limitWebDomain;
+      public $limitWebQuota;
+      public $webPhpOptions;
+      public $limitWebSubdomain;
+      public $limitWebAliasdomain;
+      public $limitFtpUser;
+      public $limitShellUser;
+      public $sshChroot;
+      public $limitWebdavUser;
+      public $defaultDnsserver;
+      public $limitDnsZone;
+      public $limitDnsSlaveZone;
+      public $limitDnsRecord;
+      public $defaultDbserver;
+      public $limitDatabase;
+      public $limitCron;
+      public $limitCronType;
+      public $limitCronFrequency;
+      public $limitTrafficQuota;
+      public $limitClient;
+      public $parentClientId;
+      public $username;
+      public $password;
+      public $language;
+      public $usertheme;
+      public $templateMaster;
+      public $templateAdditional;
+      public $createdAt;
+}

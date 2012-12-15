@@ -1,0 +1,20 @@
+{
+    "name": "inspirio/isp-client",
+    "description": "ISPConfig remote API client library",
+    "authors": [
+        {
+            "name": "Josef Martinec",
+            "email": "josef.martinec@inspirio.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    
+    "require": {
+        "ext-soap": "*",
+        "monolog/monolog": "1.2.*"
+    },
+    
+    "autoload": {
+        "psr-0": {"Inspirio": "src/"}
+    },
+}
